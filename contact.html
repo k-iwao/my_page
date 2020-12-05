@@ -68,47 +68,29 @@
         <p style="font-size:35px;"><img src="img/mailform.png" alt="写真" width="35" height="30"><span style="margin-right:10px;">E-mail:<span class="sp_br3"></span></span><a style="font-size:18px;">iwao@hlab.sys.es.osaka-u.ac.jp</a>
         </div>
         <br>
-        <p style="font-size:20px;">下のフォームを使ってメールを送ることもできます。
-    <br>→現在このフォームは改良中です。</p>
+        <p style="font-size:18px;">下のフォームを使ってメールを送ることもできます。</p>
         <br>
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
-
+          <form action="https://formspree.io/xrgywlgk" method="POST">
             <div class="form-group">
-              <label for="contact-name">Your Name</label>
-              <input type="name" name="name" class="form-control" id="contact-name" placeholder="あなたの名前を書いてください。" data-rule="minlen:2" data-msg="Please enter at least 2 chars" >
+              <label for="contact-email">Your name</label>
+              <input type="email" name="_replyto" placeholder="あなたのemailを書いてください。" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <label for="contact-email">Your Email</label>
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="あなたのemailアドレスを書いてください。" data-rule="email" data-msg="Please enter a valid email">
+              <label for="contact-name">Message</label><br>
+              <textarea type="text" style="width:500px; resize:none; height:200px;" name="name" placeholder="内容を書いてください。" data-rule="name" data-msg="Please write something for us">
+              </textarea>
               <div class="validate"></div>
             </div>
-            <div class="form-group">
-              <label for="contact-subject">Subject</label>
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="題名を書いてください。" data-rule="minlen:1" data-msg="Please enter at least 2 chars of subject">
-              <div class="validate"></div>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-message">Your Message</label>
-              <textarea class="form-control" name="message" id="contact-message" placeholder="メッセージを書いてください。" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-              <div class="validate"></div>
-            </div>
-
-            <div class="loading"></div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-
             <div class="form-send">
-              <button type="submit" class="btn btn-large">Send Message</button>
+              <button type="submit" value="Send">Send Message</button>
             </div>
           </form>
         </div>
       </div>
   </div>
-
 
 
   <div id="copyrights">
