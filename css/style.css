@@ -436,6 +436,7 @@ hr {
 }
 .practice5{
   text-align:left;
+
   margin-right:30%;
   font-size:20px;
   color: blue;
@@ -618,6 +619,7 @@ hr {
 
 .practice5{
   font-size:22px;
+  overflow-wrap: break-word;
   color: blue;
 }
 
@@ -625,6 +627,7 @@ hr {
   text-align:left;
   padding:10px;
   font-size:14px;
+  overflow-wrap: break-word;
   color:black;
 }
 }
