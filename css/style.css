@@ -415,6 +415,7 @@ hr {
 
 .practice2{
   height:60px;
+  overflow-wrap: break-word;
   background-color:#lalala;
   margin-left:10%;
   font-size:18px;
@@ -436,8 +437,6 @@ hr {
 }
 .practice5{
   text-align:left;
-
-  margin-right:30%;
   font-size:20px;
   color: blue;
 }
@@ -508,6 +507,7 @@ hr {
 
 .practice2{
   height:60px;
+  overflow-wrap: break-word;
   background-color:#lalala;
   margin-left:15%;
   font-size:18px;
@@ -530,7 +530,6 @@ hr {
   color:black;
 }
 .practice5{
-  margin-right:30%;
   font-size:20px;
   color: blue;
 }
@@ -566,7 +565,7 @@ hr {
     text-align:center;
 }
 .text {
-    width: 400px;
+    width: auto;
     text-align:center;
 }
 .text4{
@@ -593,13 +592,13 @@ hr {
 
 .practice2{
   content: "\A" ;
+  overflow-wrap: break-word;
   white-space: pre ;
   height:40px;
   text-align:left;
-  margin-left:30%;
+  margin-left:20%;
   font-size:18px;
   color:black;
-  overflow-wrap: break-word;
 }
 
 .practice3{
