@@ -543,7 +543,7 @@ hr {
 }
 
 
-@media screen and (max-width:559px){
+@media screen and (max-width:600px){
 
 .sp_br2{
   display:none;
@@ -591,9 +591,9 @@ hr {
 }
 
 .practice2{
-  content: "\A" ;
   overflow-wrap: break-word;
-  white-space: pre ;
+  content: "\A" ;
+  white-space: pre;
   height:40px;
   text-align:left;
   margin-left:20%;
